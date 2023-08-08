@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculadora</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  
+  <div id="calculadora">
+    <h1>Calculadora</h1><br>
+    <p id="tela"></p><br>
+        <input type="button" value="C" onclick="limpar()">
+        <input type="button" value="<" onclick="apagar('7')">
+        <input type="button" value="/" onclick="acao('/')"><br>
+        <input type="button" value="x" onclick="acao('*')">
+        <input type="button" value="-" onclick="acao('-')">
+        <input type="button" value="+" onclick="acao('+')"><br>
+        <input type="button" value="7" onclick="acao('7')">
+        <input type="button" value="8" onclick="acao('8')">
+        <input type="button" value="9" onclick="acao('9')"><br>
+        <input type="button" value="4" onclick="acao('4')">
+        <input type="button" value="5" onclick="acao('5')">
+        <input type="button" value="6" onclick="acao('6')"><br>
+        <input type="button" value="1" onclick="acao('1')">
+        <input type="button" value="2" onclick="acao('2')">
+        <input type="button" value="3" onclick="acao('3')"><br>
+        <input type="button" value="0" onclick="acao('0')">
+        <input type="button" value="." onclick="acao('.')">
+        <input type="button" value="=" onclick="resultado()">
+  </div>
+  
+  
+ 
+  <script type="text/javascript" src="script.js"></script>
+</body>
+</html>
